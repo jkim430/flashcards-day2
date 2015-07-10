@@ -18,6 +18,8 @@ app.directive('flashCard', function(ScoreFactory) {
       }
 
     },
-    scope: true
+    scope: {
+      card: '='
+    }
   }
 })
