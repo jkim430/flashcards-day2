@@ -20,7 +20,7 @@
         <center>
             <loader ng-hide="flashCards"></loader>
         </center>
-        <flash-card ng-repeat="entry in flashCards | orderBy : 'question'" ng-show="loaded" card="entry"></flash-card>
+        <flash-card ng-repeat="flashCard in flashCards | orderBy : 'question'"  card="flashCard"></flash-card>
     </div>
     <script src="js/lib/angular.js"></script>
     <script src="js/app.js"></script>

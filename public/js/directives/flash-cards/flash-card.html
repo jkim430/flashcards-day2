@@ -5,7 +5,7 @@
         <li ng-repeat="answer in card.answers" class="flash-card-answer" ng-click="answerQuestion(answer, card)">{{ answer.text }}</li>
     </ul>
     <h2 class="answer-feedback" ng-class="card.answeredCorrectly ? 'correct' : 'incorrect'" ng-show="card.answered">
-<span ng-show="card.answeredCorrectly">Yeah, you got it right!</span>
-<span ng-show="!card.answeredCorrectly">Nope, you got it wrong.</span>
-</h2>
+      <span ng-show="card.answeredCorrectly">Yeah, you got it right!</span>
+      <span ng-show="!card.answeredCorrectly">Nope, you got it wrong.</span>
+    </h2>
 </div>
