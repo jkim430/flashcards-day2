@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-.border-hover {
-    border: 5px solid black !important;
-}
-
 .category-button {
     border: 1px solid black;
     background: none;

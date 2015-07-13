@@ -18,7 +18,7 @@
         </center>
         <br>
         <center>
-            <loader ng-show="!loaded"></loader>
+            <loader ng-hide="flashCards"></loader>
         </center>
         <flash-card ng-repeat="entry in flashCards | orderBy : 'question'" ng-show="loaded" card="entry"></flash-card>
     </div>
